@@ -1,0 +1,1 @@
+# smiles-poc-redesign-liferay-theme
