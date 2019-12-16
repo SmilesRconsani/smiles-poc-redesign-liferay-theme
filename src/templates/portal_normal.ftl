@@ -21,7 +21,6 @@
 <@liferay.control_menu />
 <#assign HEADER_MENU_ID = "36032" >
 <#assign FOOTER_MENU_ID = "37969" >
-<#--  <#assign liferay_portlet = taglibLiferayHash["/META-INF/liferay-portlet.tld"] />  -->
 <#assign journalArticleLocalService = serviceLocator.findService("com.liferay.journal.service.JournalArticleLocalService")>
 <#assign headerContent = journalArticleLocalService.getArticle(theme_display.getSiteGroupId(), HEADER_MENU_ID)>
 <#assign footerContent = journalArticleLocalService.getArticle(theme_display.getSiteGroupId(), FOOTER_MENU_ID)>

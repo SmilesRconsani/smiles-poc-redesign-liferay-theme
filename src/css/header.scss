@@ -1,0 +1,220 @@
+@import "variables";
+
+// #header {
+//     @extend %nunito-regular;
+//     background-color: getColor(header, brandColor);
+//     font-size: 22px;
+//     line-height: 30px;
+//     color: getColor(primary, themeColor);
+//     display: grid;
+// }
+
+*, #wrapper {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    height: 150px;
+    background-color: #4F2776;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+#header ul {
+    list-style-type: none;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: #FFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#header .menu li {
+    padding: 15px 5px;
+    white-space: nowrap;
+}
+
+#header .smiles-logo {
+    width: 78px;
+    height: 33px;
+}
+
+@media all and (min-width: 900px) {
+    #header .item {
+        display: inline-block;
+        width: auto;
+    }
+
+    #header .toggle {
+        display: none;
+    }
+
+    #header .smiles-logo {
+        order: 0;
+        margin-right: 10px;
+    }
+
+    #header .item {
+        order: 1;
+    }
+
+    #header .button {
+        order: 2;
+    }
+
+    #header .menu li {
+        padding: 15px 10px;
+    }
+
+    #header .header-logo,
+    #header .menu {
+        margin-bottom: 0;
+    }
+
+}
+
+#header .header_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 22px;
+    line-height: 30px;
+}
+
+#header .row {
+    width: 100%;
+}
+
+#header .header_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#header #user-handle-btn #btn-sign-in-header {
+    height: 56px;
+    width: 136px;
+    color: #FFFFFF;
+    background-color: #4F2776;
+    border-radius: 8px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#header #user-handle-btn #btn-sign-in-header:hover {
+    cursor: pointer;
+}
+
+#header .search-white {
+    box-sizing: border-box;
+    height: 16.5px;
+    width: 16.5px;
+    background-color: #4F2776;
+}
+
+#header #user-handle-info {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+#header #user-handle-info p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+#header #user-handle-info .profile-pic {
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#header #user-handle-info .my-account-arrow {
+    margin-left: 5px;
+    filter: invert(1);
+}
+
+#header #user-handle-info .subnav {
+    float: left;
+    overflow: hidden;
+}
+
+#header #user-handle-info .subnav-content {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    background-color: #FFF;
+    z-index: 1;
+    width: 185px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.08);
+}
+
+#header #user-handle-info .subnav .my-account-arrow {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+#header #user-handle-info .subnav-content a {
+    text-align: center;
+    color: #7C7C7C;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+#header #user-handle-info .subnav-content a:hover {
+    background-color: #eee;
+    color: #FF5A00;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+#header #user-handle-info .subnav-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+#header #user-handle-info .subnav-content hr {
+    width: 60%;
+    color: #7C7C7C;
+    margin-left: 30px;
+    height: .5px;
+}
+
+#header .hide {
+    display: none !important;
+}

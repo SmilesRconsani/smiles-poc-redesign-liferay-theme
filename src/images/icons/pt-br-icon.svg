@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>CB508B0A-7BB9-42F7-AC2A-7921AF60EB3B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Smiles---menu" transform="translate(-139.000000, -3187.000000)">
+            <g id="Group-2" transform="translate(-0.000000, 2585.000000)">
+                <g id="Group-7" transform="translate(123.000000, 586.000000)">
+                    <g id="Group-6">
+                        <g id="brazil" transform="translate(16.000000, 16.000000)">
+                            <circle id="Oval" fill="#6DA544" fill-rule="nonzero" cx="16" cy="16" r="16"></circle>
+                            <g id="Path-+-Oval-+-Group-Mask">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#6DA544" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <polygon id="Path" fill="#FFDA44" fill-rule="nonzero" mask="url(#mask-2)" points="16 3 34 16 16 29 -2 16"></polygon>
+                                <circle id="Oval" fill="#F0F0F0" fill-rule="nonzero" mask="url(#mask-2)" cx="15.5" cy="15.5" r="7.5"></circle>
+                                <g id="Group" mask="url(#mask-2)" fill="#0052B4" fill-rule="nonzero">
+                                    <g transform="translate(8.000000, 8.000000)" id="Path">
+                                        <path d="M3.86563004,7.17697508 C2.54949003,7.17697508 1.27933501,7.37715008 0.0837250009,7.74860008 C0.136680001,11.8830001 3.50302004,15.2187402 7.65000008,15.2187402 C10.2142801,15.2187402 12.4790201,13.9422951 13.8481151,11.9914601 C11.5057701,9.0592151 7.90168508,7.17697508 3.86563004,7.17697508 Z"></path>
+                                        <path d="M15.0784052,9.1001001 C15.1695252,8.63056009 15.2187402,8.14614509 15.2187402,7.65000008 C15.2187402,3.46987004 11.8301301,0.0813450009 7.65008508,0.0813450009 C4.53109505,0.0813450009 1.85359502,1.96843002 0.694875007,4.66276005 C1.71912502,4.45051505 2.77958503,4.33874005 3.86580004,4.33874005 C8.26174509,4.33865505 12.2385551,6.16598506 15.0784052,9.1001001 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

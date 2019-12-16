@@ -1,0 +1,67 @@
+$font-stack: 'Nunito', Arial, Helvetica, sans-serif;
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+// Fonts sizes
+%nunito-light {
+    font-family: $font-stack;
+    font-weight: $font-light;
+}
+
+%nunito-regular {
+    font-family: $font-stack;
+    font-weight: $font-regular;
+}
+
+%nunito-bold {
+    font-family: $font-stack;
+    font-weight: $font-bold;
+}
+
+// Colors
+$colors: (
+    brandColor: (
+        primary:    #FF5A00, //Laranja Oficial
+        light:      #FF5A00, //Laranja Web Color
+        dark:       #cc6633, //laranja Queimado
+    ),
+
+    productsColor: (
+        header:     #4F2776,
+        club:       #663399, //Roxo Clube
+        wine:       #993366, //Wine
+        easyTravel: #339999, //Verde Viaje Facil
+        cobranded:  #6699cc, //Azul Cobranded
+        promotional: #E01783,//Rosa tarifas promocionais
+    ),
+
+    themeColor: (
+        primary:    #ffffff, //Branco
+        secondary:  #fce200, //Amarelo
+        light:      #ececec, //Cinza Claro
+        dark:       #7c7c7c, //Cinza Escuro
+        inverse:    #000000, //Preto
+        danger:     #e74646, //Erro mensagem
+    ),
+
+    categoryColor: (
+        diamond:    #2e3132, //Preto
+        gold:       #a98c5d, //Amarelo Ouro
+        silver:     #989697, //Prata
+    ),
+
+    statusColor: (
+        success:    #4caf50,
+        warning:    #F4792C,
+    ),
+
+    bmsGray: (
+        lighter:    #F5F5F5, //BACKGROUND
+        light:      #ECECEC, //BORDERS
+        medium:     #BCBEC0, //TEXT AND BUTTONS
+        dark:       #7C7C7C, //TEXT AND BUTTONS
+        darker:     #5B5B5B, //FEATURES
+        darkest:    #4A4A4A, //EXCLUSIVE AREA BLCK
+    )
+);

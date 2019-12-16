@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Header</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="container-fluid" role="header">
+        <h1 class="header-logo">
+            <a class="" href="/home" title="Go to Smiles Poc">
+                <img alt="Smiles Logo" class="smiles-logo" src="../images/icons/smiles-logo.svg" />
+            </a>
+        </h1>
+
+        <div class="row">
+            <ul class="menu header_left col-md-6">
+                <li class="item"> <a href="/join" target=""> Passagens </a> </li>
+                <li class="item"> <a href="/hotel" target=""> Hospedagem </a> </li>
+                <li class="item"> <a href="/cars" target=""> Carros </a> </li>
+                <li class="item">
+                    <a href="/products" target="">
+                        <img src="../images/icons/search-icon-white.svg" class="search-white" alt="Mais Produtos" />
+                        Mais Produtos
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="menu header_right col-md-6">
+                <li class="item"> <a href="/join" target=""> Cartão de Crédito </a> </li>
+                <li class="item"> <a href="/hotel" target=""> Clube Smiles </a> </li>
+                <li class="item user-handle">
+                    <div id="user-handle-btn">
+                        <button type="button" id="btn-sign-in-header" class="btn-sign-in">Entrar</button>
+                    </div>
+                    <div id="user-handle-info" class="hide">
+                        <img id="user-handle-info-picture" src="../images/icons/empty-profile-pic.png" alt="profile-pic"
+                            class="profile-pic" />
+                        <div>
+                            <p id="user-handle-info-name">Ola, {NAME}</p>
+                            <p id="user-handle-info-miles">{AMOUNT} milhas</p>
+                        </div>
+
+                        <div class="subnav">
+                            <img id="user-handle-info-arrow" src="../images/icons/down-arrow-icon.svg"
+                                alt="my-account-arrow" class="my-account-arrow">
+
+                            <div class="subnav-content hide">
+                                <a href="/my-account">Minha Conta</a>
+                                <hr>
+                                <a id="btn-sign-out-header" href="#">Logout</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+</body>
+
+</html>

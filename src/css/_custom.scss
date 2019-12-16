@@ -5,6 +5,9 @@
 /* endinject */
 
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
-#wrapper {
-    padding: 0;
-}
+@import "utils.scss";
+@import "reset.scss";
+@import "variables.scss";
+@import "theme.scss";
+@import "header.scss";
+@import "footer.scss";

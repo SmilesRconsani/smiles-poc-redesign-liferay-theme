@@ -1,0 +1,21 @@
+.main-logo {
+    grid-area: logo;
+}
+
+.main-nav {
+    grid-area: nav;
+}
+
+.header-poc {
+    display: grid;
+    grid-template-areas: "logo nav nav";
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.footer-poc {
+    display: grid;
+
+    .main-nav {
+        grid-area: nav;
+    }
+}
